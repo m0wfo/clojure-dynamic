@@ -13,10 +13,6 @@
   (with-redefs [pure (memoize pure)] ; we need to rebind the recursive call inside 'pure'
     (pure n)))
 
-(def fib-generator
-  (fn [a b]
-    ))
-
 (defn bottom-up [n]
   "A bottom-up dynamic implementation"
     (map first

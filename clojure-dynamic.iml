@@ -13,14 +13,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.clojure:clojure:1.6.0-RC4" level="project" />
-    <orderEntry type="library" name="Maven: org.clojure:core.typed:0.2.27" level="project" />
-    <orderEntry type="library" name="Maven: org.clojure:jvm.tools.analyzer:0.6.0" level="project" />
-    <orderEntry type="library" name="Maven: org.clojure:core.cache:0.6.3" level="project" />
-    <orderEntry type="library" name="Maven: org.clojure:data.priority-map:0.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.clojure:tools.namespace:0.2.4" level="project" />
-    <orderEntry type="library" name="Maven: org.clojure:core.contracts:0.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.clojure:core.unify:0.5.3" level="project" />
-    <orderEntry type="library" name="Maven: org.clojure:math.combinatorics:0.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.clojure:tools.nrepl:0.2.3" level="project" />
     <orderEntry type="library" name="Maven: jline:jline:0.9.94" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />

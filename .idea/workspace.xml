@@ -67,10 +67,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fib.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fib.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="21" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.62377316">
               <folding />
             </state>
           </provider>
@@ -86,9 +95,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib/pure.clj" />
         <option value="$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -434,16 +443,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.7033806">
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="56" column="21" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.62377316">
           <folding />
         </state>
       </provider>

@@ -1,4 +1,4 @@
-(ns com.mowforth.dynamic.fib.pure
+(ns com.mowforth.dynamic.fib
   (:use [clojure.core.match :only (match)]))
 
 (defn pure [n]

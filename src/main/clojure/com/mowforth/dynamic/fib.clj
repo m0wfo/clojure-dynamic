@@ -15,7 +15,7 @@
 
 (defn bottom-up [n]
   "A bottom-up dynamic implementation"
-    (map first
-      (iterate
-        (fn [[x y]]
-          [y (+ x y)]) [0 1])))
+  (nth (map first
+         (iterate
+           (fn [[x y]]
+             [y (+ x y)]) [0 1])) n))

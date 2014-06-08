@@ -49,6 +49,13 @@
         </resources>
     </build>
 
+    <repositories>
+        <repository>
+            <id>clojars.org</id>
+            <url>http://clojars.org/repo</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.clojure</groupId>
@@ -59,6 +66,11 @@
             <groupId>org.clojure</groupId>
             <artifactId>tools.nrepl</artifactId>
             <version>0.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>nrepl-complete</groupId>
+            <artifactId>nrepl-complete</artifactId>
+            <version>0.1.0</version>
         </dependency>
         <dependency>
             <groupId>jline</groupId>

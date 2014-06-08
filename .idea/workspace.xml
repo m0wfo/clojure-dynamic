@@ -7,6 +7,8 @@
     <file path="/pure.clj" changelist="0da5cd0f-4eaa-4cae-856c-4b13ddb1376f" time="1399408919492" ignored="false" />
     <file path="$USER_HOME$/.m2/settings.xml" changelist="0da5cd0f-4eaa-4cae-856c-4b13ddb1376f" time="1399409099073" ignored="false" />
     <file path="/fib.clj" changelist="0da5cd0f-4eaa-4cae-856c-4b13ddb1376f" time="1401134376251" ignored="false" />
+    <file path="/levenshtein.clj" changelist="0da5cd0f-4eaa-4cae-856c-4b13ddb1376f" time="1402229525762" ignored="false" />
+    <file path="/pom.xml" changelist="0da5cd0f-4eaa-4cae-856c-4b13ddb1376f" time="1402228827749" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fib.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fib.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="37" selection-start="571" selection-end="571" vertical-scroll-proportion="0.32715377">
+            <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="0.1472192">
               <folding />
             </state>
           </provider>
@@ -87,8 +98,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib/pure.clj" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/levenshtein.clj" />
       </list>
     </option>
   </component>
@@ -131,8 +143,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,6 +296,15 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -385,6 +406,48 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/levenshtein.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/levenshtein.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/levenshtein.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -434,16 +497,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="21" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.62377316">
+        <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/fib.clj">
+    <entry file="file://$PROJECT_DIR$/src/main/clojure/com/mowforth/dynamic/levenshtein.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="571" selection-end="571" vertical-scroll-proportion="0.32715377">
+        <state line="14" column="0" selection-start="542" selection-end="542" vertical-scroll-proportion="0.22900763">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="0.1472192">
           <folding />
         </state>
       </provider>

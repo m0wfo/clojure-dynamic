@@ -1,4 +1,4 @@
-(ns com.mowforth.dynamic.leveshtein
+(ns com.mowforth.dynamic.levenshtein
   (:use [clojure.core.match :only (match)]))
 
 (defn pure [a b]

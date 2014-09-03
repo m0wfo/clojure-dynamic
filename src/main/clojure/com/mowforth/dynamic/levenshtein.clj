@@ -12,6 +12,7 @@
                              (+ (pure (butlast a) (butlast b)) cost)]))))
 
 (defn top-down [a b]
+  "A top-down implementation using memoization"
   (with-redefs [pure (memoize pure)]
     (pure a b)))
 

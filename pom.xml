@@ -68,11 +68,6 @@
             <version>0.2.3</version>
         </dependency>
         <dependency>
-            <groupId>nrepl-complete</groupId>
-            <artifactId>nrepl-complete</artifactId>
-            <version>0.1.0</version>
-        </dependency>
-        <dependency>
             <groupId>jline</groupId>
             <artifactId>jline</artifactId>
             <version>0.9.94</version>

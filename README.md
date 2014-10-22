@@ -1,7 +1,7 @@
 clojure-dynamic
 ===============
 
-Examples of functional dynamic programming in Clojure
+Examples of functional dynamic programming in Clojure, given in my talk at the [September Clojure Ireland meetup](https://speakerdeck.com/m0wfo/dynamic-programming-plus-clojure).
 
 Use
 ---
